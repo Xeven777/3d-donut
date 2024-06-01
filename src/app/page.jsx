@@ -9,9 +9,7 @@ const Scene = dynamic(() => import("@/components/Scene"), {
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Suspense fallback={"Loading.."}>
         <Scene />
-      </Suspense>
     </main>
   );
 }
